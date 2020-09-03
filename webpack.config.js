@@ -11,7 +11,7 @@ const PATH = {
 
 module.exports = {
   entry: {
-    app: path.join(PATH.SRC, 'index.tsx'),
+    app: path.join(PATH.SRC, 'index.js'),
   },
   output: {
     filename: '[name].[hash].js',
