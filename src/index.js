@@ -1,3 +1,2 @@
 import './global/styles/style.scss';
-
-console.log('Hello');
+import './FP/counter';
