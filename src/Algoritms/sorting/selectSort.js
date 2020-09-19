@@ -11,8 +11,6 @@ function selectSort(list) {
     let dummy = list[i];
     list[i] = list[min];
     list[min] = dummy;
-    // Три строчки выше можно заменить на одну 
-    // [list[i], list[min]] = [list[min], list[i]];
   }
   return list;
 }
