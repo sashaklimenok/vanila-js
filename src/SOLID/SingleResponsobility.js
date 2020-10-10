@@ -1,3 +1,5 @@
+//Class should be responsible for something one.
+
 class Animal {
   constructor(name) {
     this.name = name;

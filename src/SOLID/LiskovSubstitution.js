@@ -1,3 +1,5 @@
+//Requires subclasses to be able to replace their superclasses
+
 class Animal {
   LegCount(){};
 }

@@ -1,3 +1,5 @@
+//Classes, Modules, Functions should be opened for extending but should be closed for modification
+
 class Animal {
   constructor(animal) {
     this.animal = animal;
