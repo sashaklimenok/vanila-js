@@ -1,4 +1,4 @@
-//Объектом зависимости должна быть абстракция, а не что-то конкретное.
+// The dependency object should be an abstraction, not something specific.
 
 interface Connection {
   request: (url: string, opts:any) => void;
