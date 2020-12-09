@@ -1,4 +1,4 @@
-import { Scene } from "../Scene";
+import { Scene } from '../Scene';
 
 export class Loading extends Scene {
   constructor(game) {
@@ -8,7 +8,7 @@ export class Loading extends Scene {
 
   init() {
     super.init();
-    this.loadedAt = 0
+    this.loadedAt = 0;
   }
 
   update(time) {
@@ -20,11 +20,10 @@ export class Loading extends Scene {
     }
   }
 
-  render(time) { 
+  render(time) {
     this.update(time);
     this.game.screen.fill('#000');
-    this.game.screen.print('Loading...', 50, 50)
+    this.game.screen.print('Loading...', 50, 50);
     super.render(time);
   }
-
 }
