@@ -1,4 +1,3 @@
-//import './global/styles/style.scss';
-//import './FP/counter';
-//import './Animations/animation';
-import './Games/ElvenScout';
+import { Painting } from 'src/Canvas/canvas';
+
+new Painting(1200, 500).appendToDOM();
